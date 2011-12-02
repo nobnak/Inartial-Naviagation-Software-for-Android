@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, StudyGpsActivity!</string>
+    <string name="app_name">StudyGps</string>
+    <string name="labelLocation">Location</string>
+    <string name="notInitialized">-</string>
+    <string name="buttonRequestLocation">Request</string>
+    <string name="placeApiUrl" formatted="false">https://maps.googleapis.com/maps/api/place/search/%s?%s</string>
+    <string name="message_under_request_location">位置情報を取得中...</string>
+    <string name="title_under_reuqest_location">位置情報の取得</string>
+</resources>

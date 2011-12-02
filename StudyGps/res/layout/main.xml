@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:baselineAligned="true" android:layout_width="match_parent">
+    </LinearLayout>
+    <TextView android:id="@+id/textView1" android:text="@string/labelLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/linearLayout1" android:layout_alignParentLeft="true"></TextView>
+    <TextView android:id="@+id/displayLocation" android:text="@string/notInitialized" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/textView1" android:layout_alignBottom="@+id/textView1" android:layout_toRightOf="@+id/textView1" android:layout_marginLeft="22dp" android:layout_width="match_parent"></TextView>
+    <Button android:text="@string/buttonRequestLocation" android:layout_width="wrap_content" android:id="@+id/buttonRequestLocation" android:layout_height="wrap_content" android:layout_below="@+id/displayLocation" android:layout_alignParentRight="true"></Button>
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_below="@+id/buttonRequestLocation" android:layout_alignParentLeft="true" android:id="@+id/nameListView"></ListView>
+</RelativeLayout>
